@@ -1,0 +1,8 @@
+.main-div_form {
+  width: 90%;
+  height: 100vh;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
