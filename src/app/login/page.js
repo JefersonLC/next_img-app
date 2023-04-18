@@ -1,4 +1,4 @@
-import AppForm from '@/components/AppForm';
+import LoginForm from '@/components/LoginForm';
 
 export const metadata = {
   title: 'Login'
@@ -7,7 +7,7 @@ export const metadata = {
 export default function LoginPage() {
   return (
     <div className='main-div_form'>
-      <AppForm type='login' />
+      <LoginForm />
     </div>
   );
 }
