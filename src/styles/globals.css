@@ -1,6 +1,7 @@
 :root {
   --border-radius: 3px;
-  --color-green: #3ec961
+  --color-green: #33a34f;
+  --color-main: #10101f
 }
 
 * {
@@ -11,5 +12,5 @@
 
 .main {
   min-height: 100vh;
-  background-color: #10101f;
+  background-color: var(--color-main);
 }
