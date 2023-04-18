@@ -24,8 +24,8 @@ const password = Yup.string()
   .typeError('Must be text');
 
 export const loginValidation = Yup.object({
-  email: email.required('Email is Required'),
-  password: password.required('Password is Required')
+  email: email.required('Email is required'),
+  password: password.required('Password is required')
 });
 export const registerValidation = Yup.object({
   id: id.required('Required'),
