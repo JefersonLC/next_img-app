@@ -2,7 +2,7 @@
   padding: 0.85rem 1.25rem;
   border-radius: var(--border-radius);
   color: #fff;
-  background-color: #28284d;
+  background-color: var(--color-main);
   border: none;
   width: 100%
 }
