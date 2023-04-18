@@ -2,6 +2,7 @@
 
 import { ErrorMessage } from 'formik';
 import Input from './Input';
+import '../styles/FormControl.css'
 
 function FormControl({ ty, phl, name }) {
   return (
