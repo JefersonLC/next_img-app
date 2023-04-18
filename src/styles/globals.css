@@ -1,3 +1,8 @@
+:root {
+  --border-radius: 3px;
+  --color-green: #3ec961
+}
+
 * {
   padding: 0;
   margin: 0;
@@ -6,4 +11,5 @@
 
 .main {
   min-height: 100vh;
+  background-color: #10101f;
 }

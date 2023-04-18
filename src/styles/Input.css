@@ -1,0 +1,16 @@
+.input {
+  padding: 0.85rem 1.25rem;
+  border-radius: var(--border-radius);
+  color: #fff;
+  background-color: #28284d;
+  border: none;
+  width: 100%
+}
+
+.input::placeholder {
+  color: #9191bd;
+}
+
+.input:focus {
+  outline: solid var(--color-green) 1px;
+}
