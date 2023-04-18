@@ -1,8 +1,9 @@
 .form-control {
-  margin-bottom: 0.5rem;
+  margin-bottom: 0.75rem;
 }
 
 .span-error {
-  color: #ce3232;
+  color: #ec3333;
   padding: 0.35rem;
+  font-size: 0.75rem;
 }
