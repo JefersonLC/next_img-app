@@ -4,6 +4,7 @@ import { useState } from 'react';
 import { Formik, Form } from 'formik';
 import Link from 'next/link';
 import { useRouter } from 'next/navigation';
+import Cookie from 'js-cookie';
 import { forms } from '@/utils/forms';
 import { loginUser } from '@/services/services';
 import FormControl from './FormControl';
@@ -20,15 +21,14 @@ function LoginForm() {
   const handleSubmit = async (values) => {
     setError(null);
     setLoading(true);
-    const response = await loginUser(values);
-    const data = await response.json();
+    const data = await (await loginUser(values)).json();
     setLoading(false);
-    if (!response.ok) {
+    if (data.status) {
       setError(data.message);
       return;
     }
-    localStorage.setItem('authToken', JSON.stringify(data));
-    router.push('/')
+    Cookie.set('accessToken', data.accessToken);
+    router.push('/');
   };
 
   return (
