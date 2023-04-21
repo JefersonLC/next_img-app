@@ -13,7 +13,7 @@
   width : 100%;
   padding: 1rem;
   border-radius: var(--border-radius);
-  background-color: #28284d;
+  background-color: var(--color-secondary);
 }
 
 .form-h3 {

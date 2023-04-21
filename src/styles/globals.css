@@ -1,7 +1,8 @@
 :root {
   --border-radius: 3px;
   --color-green: #33a34f;
-  --color-main: #10101f
+  --color-main: #10101f;
+  --color-secondary: #28284d;
 }
 
 * {
@@ -13,4 +14,20 @@
 .main {
   min-height: 100vh;
   background-color: var(--color-main);
+}
+
+.footer {
+  padding: 2rem 0;
+  text-align: center;
+  background-color: var(--color-main);
+  border-top-style:solid;
+  border-color: var(--color-secondary)
+}
+
+.footer-h4, .footer-a {
+  color: #fff;
+}
+
+.footer-a:hover {
+  color: var(--color-green);
 }

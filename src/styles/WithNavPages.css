@@ -1,0 +1,25 @@
+.nav {
+  background-color: inherit;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 2rem 1rem;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+.ul-link {
+  text-decoration: none;
+}
+
+.nav-h3,
+.ul-link {
+  color: #fff;
+}
+
+.main-div {
+  margin: 5.5rem 1rem 0;
+  color: #fff;
+}
